@@ -7,19 +7,48 @@
 //
 
 import UIKit
+import OHAutoNIBi18n
 
 class ViewController: UIViewController {
-
+    
+    var bundle: NSBundle! = nil
+    
+    @IBOutlet weak var label: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+//        label.text = "TEXTO_LABEL_PROGRAMATICO"
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func actionPT(sender: AnyObject) {
+        loadUpdateLanguage("pt-BR")
     }
 
-
+    @IBAction func actionUS(sender: AnyObject) {
+        loadUpdateLanguage("en")
+    }
+    
+    func loadUpdateLanguage(locale: String) {
+        
+        let locale = locale;
+        
+//        let countryCode = (locale as NSString).substringToIndex(2)
+//        NSString *path = NSBundle.mainBundle().pathForResource:pathForLocale(locale) ofType:@"lproj" ];
+        let path = NSBundle.mainBundle().pathForResource(locale, ofType: "lproj")
+        // Se ja estou usando o bundle correto para o idioma atual, retorno sem fazer nada.
+        if (bundle != nil && bundle.resourcePath == path) {
+            NSLog("setLocale No-Op");
+            return;
+        }
+        bundle = NSBundle(path: path!)
+        print("path = \(path), resPath = \(bundle.resourcePath)")
+        
+        if (bundle == nil) {
+            bundle = NSBundle.mainBundle()
+        }
+        
+        OHAutoNIBi18nSetCustomBundle(bundle);
+        
+        NSNotificationCenter.defaultCenter().postNotificationName(NSCurrentLocaleDidChangeNotification, object: self, userInfo: nil)
+    }
 }
-

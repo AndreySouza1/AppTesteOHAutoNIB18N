@@ -1,0 +1,23 @@
+PODS:
+  - LRNotificationObserver (0.1.2)
+  - ObjcAssociatedObjectHelpers (1.2.1)
+  - OHAutoNIBi18n (0.4):
+    - LRNotificationObserver (~> 0.1)
+    - ObjcAssociatedObjectHelpers (~> 1.2.0)
+
+DEPENDENCIES:
+  - OHAutoNIBi18n (from `../OHAutoNIBi18n`)
+
+EXTERNAL SOURCES:
+  OHAutoNIBi18n:
+    :branch: AddKVO
+    :path: "../OHAutoNIBi18n"
+
+SPEC CHECKSUMS:
+  LRNotificationObserver: 696c23f223a03c9b3279ca9a5437a03bb98d6866
+  ObjcAssociatedObjectHelpers: d55d2e18f1b51764577723cf4b94cf05c1838534
+  OHAutoNIBi18n: 9606fa7de940d262deb5e74d69949ec085dbf353
+
+PODFILE CHECKSUM: 100036b9546299512705139fd0b37b9ad38708b4
+
+COCOAPODS: 1.0.1

@@ -1,0 +1,932 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1763750271A985F5FD88D9988EBF9598 /* LRNotificationObserver-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD6F2D2767825EDB172A6F51930ABF4B /* LRNotificationObserver-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D1AFF0486897AD2FF228DC0F4F591C8 /* OHAutoNIBi18n.m in Sources */ = {isa = PBXBuildFile; fileRef = 73785A99B10529F50845188AE6990A36 /* OHAutoNIBi18n.m */; };
+		236748535805E16837A3853261D4F138 /* LRNotificationObserver+Owner.h in Headers */ = {isa = PBXBuildFile; fileRef = F8938F6B92594D63AD0C302B246C9D0E /* LRNotificationObserver+Owner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		287A7FBDD1D41A65D9F822D402DC1EA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09671C334D390EC771E4A05F9693320F /* Foundation.framework */; };
+		34B2E97DB341C98198B8E0B0C6B0B0AD /* ObjcAssociatedObjectHelpers-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EAFFDA893A32F0C60A02C549308D2007 /* ObjcAssociatedObjectHelpers-dummy.m */; };
+		594AD72EFA80531CAA8A1C77D26E455A /* OHAutoNIBi18n-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 95A1BC2949C3631804C0AF8DFD1172C4 /* OHAutoNIBi18n-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A002A46CDE210505CF14A826DFBE443 /* Pods-TesteOHAutoNIBi18n-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A937F73E84C8F393257439EE2E0FF570 /* Pods-TesteOHAutoNIBi18n-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B0DE69BEB25E198C09C51FFD18B7858 /* LRNotificationObserver+Owner.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4DA464B82F80180838ECFCC1E9D83C /* LRNotificationObserver+Owner.m */; };
+		60E6634B1CB7DEA0FAC9A19164878F19 /* NSObject+AssociatedDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E37680C91B3B80A9B78E0CEAE05160A /* NSObject+AssociatedDictionary.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		665E1278E99ECC0D9A5DC5F98DDDE8AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09671C334D390EC771E4A05F9693320F /* Foundation.framework */; };
+		705F4EC262AC3D1768FA900D8EFB2C61 /* ObjcAssociatedObjectHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = F1D598D12E27B09118953AFE29A35D15 /* ObjcAssociatedObjectHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7521B6ACFC14E389430EF990DBF68899 /* LRNotificationObserver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF963F7223716D5E69E5009ECF307CA5 /* LRNotificationObserver.framework */; };
+		794466004780197A40DC3BCA61DCCEF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09671C334D390EC771E4A05F9693320F /* Foundation.framework */; };
+		8C23A923068638A49F835515BF10D1EF /* LRNotificationObserver+NSNotificationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = E4755CE953590AE49EA1CBB98B5A7EA3 /* LRNotificationObserver+NSNotificationCenter.m */; };
+		932EF8FA889FD18BDAE2C16F59F3B252 /* OHL10nMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = F1FBBAE4E0BCBC0C7C995EDBA2EC6950 /* OHL10nMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A4C3BDDE97F067AE0F2AAA03D0352BD /* LRNotificationObserver+NSNotificationCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = AF199E31BB026266FF311FB068A09980 /* LRNotificationObserver+NSNotificationCenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A09B1AC6EB41A3773B28013C7A1D05FE /* LRNotificationObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AFD052758AB09FD84A183FEA9D33320 /* LRNotificationObserver.m */; };
+		AA9D32A71CE5C641FE82D86286729AA9 /* LRNotificationObserver-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B9AE9046B272CA12556F940012574CE1 /* LRNotificationObserver-dummy.m */; };
+		ADBD3F467233214CFBFC0A5BDB9D5A7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09671C334D390EC771E4A05F9693320F /* Foundation.framework */; };
+		BF2C445751730AE50DE8BED0B0067787 /* NSObject+AssociatedDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 5194AEB451749E8093F34BDE997DFDB2 /* NSObject+AssociatedDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8BDB925246558FE890CEF4081AF2870 /* OHAutoNIBi18n.h in Headers */ = {isa = PBXBuildFile; fileRef = 58EE6BBCD5734B5A1A389AA790CADC5F /* OHAutoNIBi18n.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2068B45A5FFEC5917473A68D58509C3 /* ObjcAssociatedObjectHelpers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843E72C91115355C7C9CBD45AAFB9C82 /* ObjcAssociatedObjectHelpers.framework */; };
+		DC01E8B22B459887EE49C712547BB176 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EC0BAE850F3076B2D1737C1B580E00D /* UIKit.framework */; };
+		E849F7813A6E47864243632585874220 /* ObjcAssociatedObjectHelpers-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E71761C0BA39E1CFCA882D0C2F60DC2 /* ObjcAssociatedObjectHelpers-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E93A4D3A2BB15A158130D69BB445DABC /* Pods-TesteOHAutoNIBi18n-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 941A3964394A05E1CB9B7E0244DC1FC0 /* Pods-TesteOHAutoNIBi18n-dummy.m */; };
+		F5775B033D5326A8A2F2B71C4929FD66 /* LRNotificationObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 880F9A9B09252CE89EEF978CD93F2BEF /* LRNotificationObserver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB0365EE351ACDF7C8C9D17AF2B0AB12 /* OHAutoNIBi18n-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F0D22C398B6095B0F8C13770F320D0 /* OHAutoNIBi18n-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		983F7EBD1F9C24992E23CB947FBB1A05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00228C270BD07857A3D59CCAB612A3D6;
+			remoteInfo = OHAutoNIBi18n;
+		};
+		A4B8C447EBA35C40F46B23479D79F529 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0C810ED9267E5CFED806224513C4A3D;
+			remoteInfo = LRNotificationObserver;
+		};
+		DCB9CDD94E628CB7D3C77435AA291F72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64EED52F553951D0C46E62CA0028EF14;
+			remoteInfo = ObjcAssociatedObjectHelpers;
+		};
+		E08A2B57794EB9D82B7C1950FB8CE4A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0C810ED9267E5CFED806224513C4A3D;
+			remoteInfo = LRNotificationObserver;
+		};
+		EAA7411979C0633E1A560FCA79668190 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64EED52F553951D0C46E62CA0028EF14;
+			remoteInfo = ObjcAssociatedObjectHelpers;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09671C334D390EC771E4A05F9693320F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		11059B2EFE5EC747AC3D0084C56898E5 /* ObjcAssociatedObjectHelpers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ObjcAssociatedObjectHelpers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		16E755E912134586B057B5AA291E6DBE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		204C0000173496A551EA7DA64A427853 /* Pods-TesteOHAutoNIBi18n.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TesteOHAutoNIBi18n.debug.xcconfig"; sourceTree = "<group>"; };
+		257A815C2CB19136C076BE7323A595F1 /* OHAutoNIBi18n-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OHAutoNIBi18n-prefix.pch"; sourceTree = "<group>"; };
+		28860B72DEAB29EFF1DB408DACF59DC5 /* LRNotificationObserver.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LRNotificationObserver.modulemap; sourceTree = "<group>"; };
+		28D59754167DEEE199D9A6B879722205 /* LRNotificationObserver.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LRNotificationObserver.xcconfig; sourceTree = "<group>"; };
+		2A8EB49ACA9A7CEBB5C8F2310132CFD3 /* ObjcAssociatedObjectHelpers-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ObjcAssociatedObjectHelpers-prefix.pch"; sourceTree = "<group>"; };
+		2AFD052758AB09FD84A183FEA9D33320 /* LRNotificationObserver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LRNotificationObserver.m; path = LRNotificationObserver/LRNotificationObserver.m; sourceTree = "<group>"; };
+		2F4DA464B82F80180838ECFCC1E9D83C /* LRNotificationObserver+Owner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "LRNotificationObserver+Owner.m"; path = "LRNotificationObserver/LRNotificationObserver+Owner.m"; sourceTree = "<group>"; };
+		4E37680C91B3B80A9B78E0CEAE05160A /* NSObject+AssociatedDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+AssociatedDictionary.m"; path = "ObjcAssociatedObjectHelpers/NSObject+AssociatedDictionary.m"; sourceTree = "<group>"; };
+		4EC0BAE850F3076B2D1737C1B580E00D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		5194AEB451749E8093F34BDE997DFDB2 /* NSObject+AssociatedDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+AssociatedDictionary.h"; path = "ObjcAssociatedObjectHelpers/NSObject+AssociatedDictionary.h"; sourceTree = "<group>"; };
+		58EE6BBCD5734B5A1A389AA790CADC5F /* OHAutoNIBi18n.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OHAutoNIBi18n.h; sourceTree = "<group>"; };
+		5E71761C0BA39E1CFCA882D0C2F60DC2 /* ObjcAssociatedObjectHelpers-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ObjcAssociatedObjectHelpers-umbrella.h"; sourceTree = "<group>"; };
+		71E27346D61EF4C6C5C0A7373C2C2E03 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73785A99B10529F50845188AE6990A36 /* OHAutoNIBi18n.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OHAutoNIBi18n.m; sourceTree = "<group>"; };
+		843E72C91115355C7C9CBD45AAFB9C82 /* ObjcAssociatedObjectHelpers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ObjcAssociatedObjectHelpers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		880F9A9B09252CE89EEF978CD93F2BEF /* LRNotificationObserver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LRNotificationObserver.h; path = LRNotificationObserver/LRNotificationObserver.h; sourceTree = "<group>"; };
+		88C86A56A458399D5CA6FDDF88AF20E2 /* Pods-TesteOHAutoNIBi18n.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TesteOHAutoNIBi18n.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		941A3964394A05E1CB9B7E0244DC1FC0 /* Pods-TesteOHAutoNIBi18n-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TesteOHAutoNIBi18n-dummy.m"; sourceTree = "<group>"; };
+		95A1BC2949C3631804C0AF8DFD1172C4 /* OHAutoNIBi18n-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OHAutoNIBi18n-umbrella.h"; sourceTree = "<group>"; };
+		9BE3FF3DAA9FC0741E9B986C4994D998 /* Pods-TesteOHAutoNIBi18n-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TesteOHAutoNIBi18n-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D10B9D0A825B97089EF7ACD933695E4 /* Pods-TesteOHAutoNIBi18n-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TesteOHAutoNIBi18n-frameworks.sh"; sourceTree = "<group>"; };
+		A937F73E84C8F393257439EE2E0FF570 /* Pods-TesteOHAutoNIBi18n-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TesteOHAutoNIBi18n-umbrella.h"; sourceTree = "<group>"; };
+		AF199E31BB026266FF311FB068A09980 /* LRNotificationObserver+NSNotificationCenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "LRNotificationObserver+NSNotificationCenter.h"; path = "LRNotificationObserver/LRNotificationObserver+NSNotificationCenter.h"; sourceTree = "<group>"; };
+		AF963F7223716D5E69E5009ECF307CA5 /* LRNotificationObserver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LRNotificationObserver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B519FFD2DBDC69BE3C673FAD2DE9977D /* Pods-TesteOHAutoNIBi18n-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TesteOHAutoNIBi18n-resources.sh"; sourceTree = "<group>"; };
+		B655DB53038DC68B5B7B02135549152D /* OHAutoNIBi18n.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OHAutoNIBi18n.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9AE9046B272CA12556F940012574CE1 /* LRNotificationObserver-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LRNotificationObserver-dummy.m"; sourceTree = "<group>"; };
+		BA8C59BB962DA4A8B7F13E5147EC0E05 /* Pods_TesteOHAutoNIBi18n.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TesteOHAutoNIBi18n.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3F8C7676654ABD3D7B16E93F2CF94D7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6D8D92FEC4CE6B2DB159DE11760F571 /* OHAutoNIBi18n.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OHAutoNIBi18n.xcconfig; sourceTree = "<group>"; };
+		C962DFDD6953A7F220709047D0620F0C /* ObjcAssociatedObjectHelpers.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ObjcAssociatedObjectHelpers.modulemap; sourceTree = "<group>"; };
+		CF2B674F8CBE468BD1AEAB7399418E9C /* Pods-TesteOHAutoNIBi18n-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TesteOHAutoNIBi18n-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DD6F2D2767825EDB172A6F51930ABF4B /* LRNotificationObserver-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LRNotificationObserver-umbrella.h"; sourceTree = "<group>"; };
+		E4755CE953590AE49EA1CBB98B5A7EA3 /* LRNotificationObserver+NSNotificationCenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "LRNotificationObserver+NSNotificationCenter.m"; path = "LRNotificationObserver/LRNotificationObserver+NSNotificationCenter.m"; sourceTree = "<group>"; };
+		EAFFDA893A32F0C60A02C549308D2007 /* ObjcAssociatedObjectHelpers-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ObjcAssociatedObjectHelpers-dummy.m"; sourceTree = "<group>"; };
+		F1D598D12E27B09118953AFE29A35D15 /* ObjcAssociatedObjectHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ObjcAssociatedObjectHelpers.h; path = ObjcAssociatedObjectHelpers/ObjcAssociatedObjectHelpers.h; sourceTree = "<group>"; };
+		F1FBBAE4E0BCBC0C7C995EDBA2EC6950 /* OHL10nMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OHL10nMacros.h; sourceTree = "<group>"; };
+		F6A19B4AB2DE022DAE13D3C28599EF93 /* Pods-TesteOHAutoNIBi18n.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TesteOHAutoNIBi18n.release.xcconfig"; sourceTree = "<group>"; };
+		F7E7B828A1F5FD557DBFBF7EFB29764D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F810A61ACADDAE1178A074EC1E76994A /* ObjcAssociatedObjectHelpers.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ObjcAssociatedObjectHelpers.xcconfig; sourceTree = "<group>"; };
+		F874C1959FDB1B497ABCFE4503A900D7 /* LRNotificationObserver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LRNotificationObserver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8938F6B92594D63AD0C302B246C9D0E /* LRNotificationObserver+Owner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "LRNotificationObserver+Owner.h"; path = "LRNotificationObserver/LRNotificationObserver+Owner.h"; sourceTree = "<group>"; };
+		F8F0D22C398B6095B0F8C13770F320D0 /* OHAutoNIBi18n-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OHAutoNIBi18n-dummy.m"; sourceTree = "<group>"; };
+		F8F3B7FA1F649210FB0BC5FFCB4BF18B /* LRNotificationObserver-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LRNotificationObserver-prefix.pch"; sourceTree = "<group>"; };
+		F9EABF3039403267931BA595822FCBAF /* OHAutoNIBi18n.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = OHAutoNIBi18n.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DF9A5A256DF760C24C184F54DED00DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				794466004780197A40DC3BCA61DCCEF5 /* Foundation.framework in Frameworks */,
+				7521B6ACFC14E389430EF990DBF68899 /* LRNotificationObserver.framework in Frameworks */,
+				D2068B45A5FFEC5917473A68D58509C3 /* ObjcAssociatedObjectHelpers.framework in Frameworks */,
+				DC01E8B22B459887EE49C712547BB176 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66131BC5F2008E114F1966F6A695418F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				665E1278E99ECC0D9A5DC5F98DDDE8AC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		982D0F6178C5F20C0BF0CFFEB9BD1220 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADBD3F467233214CFBFC0A5BDB9D5A7A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BE987563811A36E51ADF88DC2E22F34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				287A7FBDD1D41A65D9F822D402DC1EA0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		038FB2B2A59C95B055F4398D24922179 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3F8C7676654ABD3D7B16E93F2CF94D7 /* Info.plist */,
+				C962DFDD6953A7F220709047D0620F0C /* ObjcAssociatedObjectHelpers.modulemap */,
+				F810A61ACADDAE1178A074EC1E76994A /* ObjcAssociatedObjectHelpers.xcconfig */,
+				EAFFDA893A32F0C60A02C549308D2007 /* ObjcAssociatedObjectHelpers-dummy.m */,
+				2A8EB49ACA9A7CEBB5C8F2310132CFD3 /* ObjcAssociatedObjectHelpers-prefix.pch */,
+				5E71761C0BA39E1CFCA882D0C2F60DC2 /* ObjcAssociatedObjectHelpers-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ObjcAssociatedObjectHelpers";
+			sourceTree = "<group>";
+		};
+		13B95C5716C1529AFE2EDB0B66F22896 /* ObjcAssociatedObjectHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				5194AEB451749E8093F34BDE997DFDB2 /* NSObject+AssociatedDictionary.h */,
+				4E37680C91B3B80A9B78E0CEAE05160A /* NSObject+AssociatedDictionary.m */,
+				F1D598D12E27B09118953AFE29A35D15 /* ObjcAssociatedObjectHelpers.h */,
+				038FB2B2A59C95B055F4398D24922179 /* Support Files */,
+			);
+			path = ObjcAssociatedObjectHelpers;
+			sourceTree = "<group>";
+		};
+		1BC2C864E6A34B554D715B2D5E9594EF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				79526A35B0640D967AF4413853EDDB41 /* Pods-TesteOHAutoNIBi18n */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		37A0874DAD9D3A909D7C308ADAC6B034 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF963F7223716D5E69E5009ECF307CA5 /* LRNotificationObserver.framework */,
+				843E72C91115355C7C9CBD45AAFB9C82 /* ObjcAssociatedObjectHelpers.framework */,
+				37FF2C3DB74C7A43F543E784E8F8E80C /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		37FF2C3DB74C7A43F543E784E8F8E80C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				09671C334D390EC771E4A05F9693320F /* Foundation.framework */,
+				4EC0BAE850F3076B2D1737C1B580E00D /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		399D0E3B7E477F4111A9E21DF3726217 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F874C1959FDB1B497ABCFE4503A900D7 /* LRNotificationObserver.framework */,
+				11059B2EFE5EC747AC3D0084C56898E5 /* ObjcAssociatedObjectHelpers.framework */,
+				B655DB53038DC68B5B7B02135549152D /* OHAutoNIBi18n.framework */,
+				BA8C59BB962DA4A8B7F13E5147EC0E05 /* Pods_TesteOHAutoNIBi18n.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40F98ADBCE6FAC4EAE508A7565644373 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB09956C9D7619F0FA74C0BA54F14269 /* LRNotificationObserver */,
+				13B95C5716C1529AFE2EDB0B66F22896 /* ObjcAssociatedObjectHelpers */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6299AA6D7B0532F6C8041FFF6E9F880B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F1F4E1349B6689529DE168E72863E60 /* OHAutoNIBi18n */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		79526A35B0640D967AF4413853EDDB41 /* Pods-TesteOHAutoNIBi18n */ = {
+			isa = PBXGroup;
+			children = (
+				71E27346D61EF4C6C5C0A7373C2C2E03 /* Info.plist */,
+				88C86A56A458399D5CA6FDDF88AF20E2 /* Pods-TesteOHAutoNIBi18n.modulemap */,
+				CF2B674F8CBE468BD1AEAB7399418E9C /* Pods-TesteOHAutoNIBi18n-acknowledgements.markdown */,
+				9BE3FF3DAA9FC0741E9B986C4994D998 /* Pods-TesteOHAutoNIBi18n-acknowledgements.plist */,
+				941A3964394A05E1CB9B7E0244DC1FC0 /* Pods-TesteOHAutoNIBi18n-dummy.m */,
+				9D10B9D0A825B97089EF7ACD933695E4 /* Pods-TesteOHAutoNIBi18n-frameworks.sh */,
+				B519FFD2DBDC69BE3C673FAD2DE9977D /* Pods-TesteOHAutoNIBi18n-resources.sh */,
+				A937F73E84C8F393257439EE2E0FF570 /* Pods-TesteOHAutoNIBi18n-umbrella.h */,
+				204C0000173496A551EA7DA64A427853 /* Pods-TesteOHAutoNIBi18n.debug.xcconfig */,
+				F6A19B4AB2DE022DAE13D3C28599EF93 /* Pods-TesteOHAutoNIBi18n.release.xcconfig */,
+			);
+			name = "Pods-TesteOHAutoNIBi18n";
+			path = "Target Support Files/Pods-TesteOHAutoNIBi18n";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				6299AA6D7B0532F6C8041FFF6E9F880B /* Development Pods */,
+				37A0874DAD9D3A909D7C308ADAC6B034 /* Frameworks */,
+				40F98ADBCE6FAC4EAE508A7565644373 /* Pods */,
+				399D0E3B7E477F4111A9E21DF3726217 /* Products */,
+				1BC2C864E6A34B554D715B2D5E9594EF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		97398A6BA02E46C1F258AF87A410AC71 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				16E755E912134586B057B5AA291E6DBE /* Info.plist */,
+				F9EABF3039403267931BA595822FCBAF /* OHAutoNIBi18n.modulemap */,
+				C6D8D92FEC4CE6B2DB159DE11760F571 /* OHAutoNIBi18n.xcconfig */,
+				F8F0D22C398B6095B0F8C13770F320D0 /* OHAutoNIBi18n-dummy.m */,
+				257A815C2CB19136C076BE7323A595F1 /* OHAutoNIBi18n-prefix.pch */,
+				95A1BC2949C3631804C0AF8DFD1172C4 /* OHAutoNIBi18n-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../TesteOHAutoNIBi18n/Pods/Target Support Files/OHAutoNIBi18n";
+			sourceTree = "<group>";
+		};
+		9F1F4E1349B6689529DE168E72863E60 /* OHAutoNIBi18n */ = {
+			isa = PBXGroup;
+			children = (
+				58EE6BBCD5734B5A1A389AA790CADC5F /* OHAutoNIBi18n.h */,
+				73785A99B10529F50845188AE6990A36 /* OHAutoNIBi18n.m */,
+				F1FBBAE4E0BCBC0C7C995EDBA2EC6950 /* OHL10nMacros.h */,
+				97398A6BA02E46C1F258AF87A410AC71 /* Support Files */,
+			);
+			name = OHAutoNIBi18n;
+			path = ../../OHAutoNIBi18n;
+			sourceTree = "<group>";
+		};
+		A4191EBD6551228268B36B878778304C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7E7B828A1F5FD557DBFBF7EFB29764D /* Info.plist */,
+				28860B72DEAB29EFF1DB408DACF59DC5 /* LRNotificationObserver.modulemap */,
+				28D59754167DEEE199D9A6B879722205 /* LRNotificationObserver.xcconfig */,
+				B9AE9046B272CA12556F940012574CE1 /* LRNotificationObserver-dummy.m */,
+				F8F3B7FA1F649210FB0BC5FFCB4BF18B /* LRNotificationObserver-prefix.pch */,
+				DD6F2D2767825EDB172A6F51930ABF4B /* LRNotificationObserver-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LRNotificationObserver";
+			sourceTree = "<group>";
+		};
+		AB09956C9D7619F0FA74C0BA54F14269 /* LRNotificationObserver */ = {
+			isa = PBXGroup;
+			children = (
+				880F9A9B09252CE89EEF978CD93F2BEF /* LRNotificationObserver.h */,
+				2AFD052758AB09FD84A183FEA9D33320 /* LRNotificationObserver.m */,
+				AF199E31BB026266FF311FB068A09980 /* LRNotificationObserver+NSNotificationCenter.h */,
+				E4755CE953590AE49EA1CBB98B5A7EA3 /* LRNotificationObserver+NSNotificationCenter.m */,
+				F8938F6B92594D63AD0C302B246C9D0E /* LRNotificationObserver+Owner.h */,
+				2F4DA464B82F80180838ECFCC1E9D83C /* LRNotificationObserver+Owner.m */,
+				A4191EBD6551228268B36B878778304C /* Support Files */,
+			);
+			path = LRNotificationObserver;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3899DB5852372D05B455301CE55DEE1F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A002A46CDE210505CF14A826DFBE443 /* Pods-TesteOHAutoNIBi18n-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49243E54697C60B110826B2E51AB82D3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				594AD72EFA80531CAA8A1C77D26E455A /* OHAutoNIBi18n-umbrella.h in Headers */,
+				C8BDB925246558FE890CEF4081AF2870 /* OHAutoNIBi18n.h in Headers */,
+				932EF8FA889FD18BDAE2C16F59F3B252 /* OHL10nMacros.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D50FB3374B213EECF7AE53D155B0CF26 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF2C445751730AE50DE8BED0B0067787 /* NSObject+AssociatedDictionary.h in Headers */,
+				E849F7813A6E47864243632585874220 /* ObjcAssociatedObjectHelpers-umbrella.h in Headers */,
+				705F4EC262AC3D1768FA900D8EFB2C61 /* ObjcAssociatedObjectHelpers.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF3E5B38566399B63BA6D589F36523E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A4C3BDDE97F067AE0F2AAA03D0352BD /* LRNotificationObserver+NSNotificationCenter.h in Headers */,
+				236748535805E16837A3853261D4F138 /* LRNotificationObserver+Owner.h in Headers */,
+				1763750271A985F5FD88D9988EBF9598 /* LRNotificationObserver-umbrella.h in Headers */,
+				F5775B033D5326A8A2F2B71C4929FD66 /* LRNotificationObserver.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		00228C270BD07857A3D59CCAB612A3D6 /* OHAutoNIBi18n */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB5E26C2563B3FD780F4A3DFBE04E3A3 /* Build configuration list for PBXNativeTarget "OHAutoNIBi18n" */;
+			buildPhases = (
+				D7BFE3673DAADBC376063AA2DD7A88D0 /* Sources */,
+				2DF9A5A256DF760C24C184F54DED00DA /* Frameworks */,
+				49243E54697C60B110826B2E51AB82D3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57A55156A42BB4ED88D1CCACCF991037 /* PBXTargetDependency */,
+				8955DDF690175837BCDF0C436536A1B9 /* PBXTargetDependency */,
+			);
+			name = OHAutoNIBi18n;
+			productName = OHAutoNIBi18n;
+			productReference = B655DB53038DC68B5B7B02135549152D /* OHAutoNIBi18n.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		64EED52F553951D0C46E62CA0028EF14 /* ObjcAssociatedObjectHelpers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F1075743A6FFBF48B922F254B094966 /* Build configuration list for PBXNativeTarget "ObjcAssociatedObjectHelpers" */;
+			buildPhases = (
+				E6B1415FBB19E7665EE29CAD0858817F /* Sources */,
+				66131BC5F2008E114F1966F6A695418F /* Frameworks */,
+				D50FB3374B213EECF7AE53D155B0CF26 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ObjcAssociatedObjectHelpers;
+			productName = ObjcAssociatedObjectHelpers;
+			productReference = 11059B2EFE5EC747AC3D0084C56898E5 /* ObjcAssociatedObjectHelpers.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A0C810ED9267E5CFED806224513C4A3D /* LRNotificationObserver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D82C880FD096EAB8FCF012289EB2F744 /* Build configuration list for PBXNativeTarget "LRNotificationObserver" */;
+			buildPhases = (
+				B210AD3706FEA7424DFECE97D9C1E49B /* Sources */,
+				982D0F6178C5F20C0BF0CFFEB9BD1220 /* Frameworks */,
+				DBF3E5B38566399B63BA6D589F36523E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LRNotificationObserver;
+			productName = LRNotificationObserver;
+			productReference = F874C1959FDB1B497ABCFE4503A900D7 /* LRNotificationObserver.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CC3888DD06D22EBE709697028A4FEC1D /* Pods-TesteOHAutoNIBi18n */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01ADFD4CF4BACE2B37073E86AFFA1746 /* Build configuration list for PBXNativeTarget "Pods-TesteOHAutoNIBi18n" */;
+			buildPhases = (
+				26B9187349F8BB366651D4F00501CE4B /* Sources */,
+				9BE987563811A36E51ADF88DC2E22F34 /* Frameworks */,
+				3899DB5852372D05B455301CE55DEE1F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EFB6713BCD2430508C298CBF813A1A0 /* PBXTargetDependency */,
+				CCCE9E8479DC3686150E348F034F72D1 /* PBXTargetDependency */,
+				36A9A9E497AF61A84677787172CB458F /* PBXTargetDependency */,
+			);
+			name = "Pods-TesteOHAutoNIBi18n";
+			productName = "Pods-TesteOHAutoNIBi18n";
+			productReference = BA8C59BB962DA4A8B7F13E5147EC0E05 /* Pods_TesteOHAutoNIBi18n.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 399D0E3B7E477F4111A9E21DF3726217 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0C810ED9267E5CFED806224513C4A3D /* LRNotificationObserver */,
+				64EED52F553951D0C46E62CA0028EF14 /* ObjcAssociatedObjectHelpers */,
+				00228C270BD07857A3D59CCAB612A3D6 /* OHAutoNIBi18n */,
+				CC3888DD06D22EBE709697028A4FEC1D /* Pods-TesteOHAutoNIBi18n */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26B9187349F8BB366651D4F00501CE4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E93A4D3A2BB15A158130D69BB445DABC /* Pods-TesteOHAutoNIBi18n-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B210AD3706FEA7424DFECE97D9C1E49B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C23A923068638A49F835515BF10D1EF /* LRNotificationObserver+NSNotificationCenter.m in Sources */,
+				5B0DE69BEB25E198C09C51FFD18B7858 /* LRNotificationObserver+Owner.m in Sources */,
+				AA9D32A71CE5C641FE82D86286729AA9 /* LRNotificationObserver-dummy.m in Sources */,
+				A09B1AC6EB41A3773B28013C7A1D05FE /* LRNotificationObserver.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7BFE3673DAADBC376063AA2DD7A88D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB0365EE351ACDF7C8C9D17AF2B0AB12 /* OHAutoNIBi18n-dummy.m in Sources */,
+				1D1AFF0486897AD2FF228DC0F4F591C8 /* OHAutoNIBi18n.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6B1415FBB19E7665EE29CAD0858817F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60E6634B1CB7DEA0FAC9A19164878F19 /* NSObject+AssociatedDictionary.m in Sources */,
+				34B2E97DB341C98198B8E0B0C6B0B0AD /* ObjcAssociatedObjectHelpers-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36A9A9E497AF61A84677787172CB458F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ObjcAssociatedObjectHelpers;
+			target = 64EED52F553951D0C46E62CA0028EF14 /* ObjcAssociatedObjectHelpers */;
+			targetProxy = DCB9CDD94E628CB7D3C77435AA291F72 /* PBXContainerItemProxy */;
+		};
+		4EFB6713BCD2430508C298CBF813A1A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LRNotificationObserver;
+			target = A0C810ED9267E5CFED806224513C4A3D /* LRNotificationObserver */;
+			targetProxy = A4B8C447EBA35C40F46B23479D79F529 /* PBXContainerItemProxy */;
+		};
+		57A55156A42BB4ED88D1CCACCF991037 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LRNotificationObserver;
+			target = A0C810ED9267E5CFED806224513C4A3D /* LRNotificationObserver */;
+			targetProxy = E08A2B57794EB9D82B7C1950FB8CE4A3 /* PBXContainerItemProxy */;
+		};
+		8955DDF690175837BCDF0C436536A1B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ObjcAssociatedObjectHelpers;
+			target = 64EED52F553951D0C46E62CA0028EF14 /* ObjcAssociatedObjectHelpers */;
+			targetProxy = EAA7411979C0633E1A560FCA79668190 /* PBXContainerItemProxy */;
+		};
+		CCCE9E8479DC3686150E348F034F72D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OHAutoNIBi18n;
+			target = 00228C270BD07857A3D59CCAB612A3D6 /* OHAutoNIBi18n */;
+			targetProxy = 983F7EBD1F9C24992E23CB947FBB1A05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		31B5EC2E581C93EC6A2A3C0F6D91EEB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6D8D92FEC4CE6B2DB159DE11760F571 /* OHAutoNIBi18n.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OHAutoNIBi18n/OHAutoNIBi18n-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					OHAutoNIBi18n_OBSERVE_LOCALE,
+				);
+				INFOPLIST_FILE = "Target Support Files/OHAutoNIBi18n/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OHAutoNIBi18n/OHAutoNIBi18n.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = OHAutoNIBi18n;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		698F7E625F32E8A5B54F42D751E866FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28D59754167DEEE199D9A6B879722205 /* LRNotificationObserver.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LRNotificationObserver/LRNotificationObserver-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LRNotificationObserver/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LRNotificationObserver/LRNotificationObserver.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = LRNotificationObserver;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6BA1E56952A76A2C29D3229E3B50543B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F810A61ACADDAE1178A074EC1E76994A /* ObjcAssociatedObjectHelpers.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ObjcAssociatedObjectHelpers/ObjcAssociatedObjectHelpers-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ObjcAssociatedObjectHelpers/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ObjcAssociatedObjectHelpers/ObjcAssociatedObjectHelpers.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ObjcAssociatedObjectHelpers;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6FD823741523B6BBA156FD2A31130E50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78BD609E940DC8F2FCCDD0331F3B6FA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F810A61ACADDAE1178A074EC1E76994A /* ObjcAssociatedObjectHelpers.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ObjcAssociatedObjectHelpers/ObjcAssociatedObjectHelpers-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ObjcAssociatedObjectHelpers/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ObjcAssociatedObjectHelpers/ObjcAssociatedObjectHelpers.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ObjcAssociatedObjectHelpers;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A0C9F41789F5D197C617D91D2FEC39F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6A19B4AB2DE022DAE13D3C28599EF93 /* Pods-TesteOHAutoNIBi18n.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TesteOHAutoNIBi18n/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TesteOHAutoNIBi18n/Pods-TesteOHAutoNIBi18n.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TesteOHAutoNIBi18n;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ECFC8E62DF3C319A9FFD9C1B01FDC144 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 204C0000173496A551EA7DA64A427853 /* Pods-TesteOHAutoNIBi18n.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TesteOHAutoNIBi18n/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TesteOHAutoNIBi18n/Pods-TesteOHAutoNIBi18n.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TesteOHAutoNIBi18n;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EE3433E81723238FDF523A9838FEC7BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		FC67310D31956BFABFB5E51152E57225 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6D8D92FEC4CE6B2DB159DE11760F571 /* OHAutoNIBi18n.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OHAutoNIBi18n/OHAutoNIBi18n-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					OHAutoNIBi18n_OBSERVE_LOCALE,
+				);
+				INFOPLIST_FILE = "Target Support Files/OHAutoNIBi18n/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OHAutoNIBi18n/OHAutoNIBi18n.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = OHAutoNIBi18n;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FEDB5E9043823D81586D50D343E53DC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28D59754167DEEE199D9A6B879722205 /* LRNotificationObserver.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LRNotificationObserver/LRNotificationObserver-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LRNotificationObserver/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LRNotificationObserver/LRNotificationObserver.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = LRNotificationObserver;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01ADFD4CF4BACE2B37073E86AFFA1746 /* Build configuration list for PBXNativeTarget "Pods-TesteOHAutoNIBi18n" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECFC8E62DF3C319A9FFD9C1B01FDC144 /* Debug */,
+				A0C9F41789F5D197C617D91D2FEC39F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE3433E81723238FDF523A9838FEC7BD /* Debug */,
+				6FD823741523B6BBA156FD2A31130E50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F1075743A6FFBF48B922F254B094966 /* Build configuration list for PBXNativeTarget "ObjcAssociatedObjectHelpers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78BD609E940DC8F2FCCDD0331F3B6FA9 /* Debug */,
+				6BA1E56952A76A2C29D3229E3B50543B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D82C880FD096EAB8FCF012289EB2F744 /* Build configuration list for PBXNativeTarget "LRNotificationObserver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEDB5E9043823D81586D50D343E53DC7 /* Debug */,
+				698F7E625F32E8A5B54F42D751E866FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB5E26C2563B3FD780F4A3DFBE04E3A3 /* Build configuration list for PBXNativeTarget "OHAutoNIBi18n" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC67310D31956BFABFB5E51152E57225 /* Debug */,
+				31B5EC2E581C93EC6A2A3C0F6D91EEB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_TesteOHAutoNIBi18n {
+  umbrella header "Pods-TesteOHAutoNIBi18n-umbrella.h"
+
+  export *
+  module * { export * }
+}

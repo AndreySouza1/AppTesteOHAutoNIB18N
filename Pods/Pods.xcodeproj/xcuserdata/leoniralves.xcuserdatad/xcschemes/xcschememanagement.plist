@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>LRNotificationObserver.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>OHAutoNIBi18n.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>ObjcAssociatedObjectHelpers.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-TesteOHAutoNIBi18n.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>00228C270BD07857A3D59CCAB612A3D6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>64EED52F553951D0C46E62CA0028EF14</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A0C810ED9267E5CFED806224513C4A3D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CC3888DD06D22EBE709697028A4FEC1D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

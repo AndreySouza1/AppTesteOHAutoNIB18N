@@ -12,6 +12,8 @@
 		12ED5E4E1D79EC3C00E67B9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12ED5E4C1D79EC3C00E67B9E /* Main.storyboard */; };
 		12ED5E501D79EC3D00E67B9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12ED5E4F1D79EC3D00E67B9E /* Assets.xcassets */; };
 		12ED5E531D79EC3D00E67B9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12ED5E511D79EC3D00E67B9E /* LaunchScreen.storyboard */; };
+		12ED5E5F1D79F70300E67B9E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 12ED5E611D79F70300E67B9E /* Localizable.strings */; };
+		C32DEE9AD02EBBD2984B8BAB /* Pods_TesteOHAutoNIBi18n.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C7ED2D72C639A84BDD0E5F6 /* Pods_TesteOHAutoNIBi18n.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,11 @@
 		12ED5E4F1D79EC3D00E67B9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12ED5E521D79EC3D00E67B9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12ED5E541D79EC3D00E67B9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12ED5E601D79F70300E67B9E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		12ED5E621D79F71800E67B9E /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		1C7ED2D72C639A84BDD0E5F6 /* Pods_TesteOHAutoNIBi18n.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TesteOHAutoNIBi18n.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAEA1F9B10BA0D7A589B9500 /* Pods-TesteOHAutoNIBi18n.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TesteOHAutoNIBi18n.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TesteOHAutoNIBi18n/Pods-TesteOHAutoNIBi18n.debug.xcconfig"; sourceTree = "<group>"; };
+		BC6932A3D7D481D06364C70F /* Pods-TesteOHAutoNIBi18n.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TesteOHAutoNIBi18n.release.xcconfig"; path = "Pods/Target Support Files/Pods-TesteOHAutoNIBi18n/Pods-TesteOHAutoNIBi18n.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C32DEE9AD02EBBD2984B8BAB /* Pods_TesteOHAutoNIBi18n.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +48,8 @@
 			children = (
 				12ED5E471D79EC3C00E67B9E /* TesteOHAutoNIBi18n */,
 				12ED5E461D79EC3C00E67B9E /* Products */,
+				FFDE14CF19577E5F3FC31F9F /* Pods */,
+				ABCFBEB1AF94A1D3790A6FA7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +70,26 @@
 				12ED5E4F1D79EC3D00E67B9E /* Assets.xcassets */,
 				12ED5E511D79EC3D00E67B9E /* LaunchScreen.storyboard */,
 				12ED5E541D79EC3D00E67B9E /* Info.plist */,
+				12ED5E611D79F70300E67B9E /* Localizable.strings */,
 			);
 			path = TesteOHAutoNIBi18n;
+			sourceTree = "<group>";
+		};
+		ABCFBEB1AF94A1D3790A6FA7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C7ED2D72C639A84BDD0E5F6 /* Pods_TesteOHAutoNIBi18n.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FFDE14CF19577E5F3FC31F9F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AAEA1F9B10BA0D7A589B9500 /* Pods-TesteOHAutoNIBi18n.debug.xcconfig */,
+				BC6932A3D7D481D06364C70F /* Pods-TesteOHAutoNIBi18n.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +99,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 12ED5E571D79EC3D00E67B9E /* Build configuration list for PBXNativeTarget "TesteOHAutoNIBi18n" */;
 			buildPhases = (
+				D6B1AA732008CB3D2033593F /* [CP] Check Pods Manifest.lock */,
 				12ED5E411D79EC3C00E67B9E /* Sources */,
 				12ED5E421D79EC3C00E67B9E /* Frameworks */,
 				12ED5E431D79EC3C00E67B9E /* Resources */,
+				C327CFEBA0379551F86064B1 /* [CP] Embed Pods Frameworks */,
+				C75EBD37B9F895F33EA410D8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -106,6 +137,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"pt-BR",
 			);
 			mainGroup = 12ED5E3C1D79EC3C00E67B9E;
 			productRefGroup = 12ED5E461D79EC3C00E67B9E /* Products */;
@@ -123,12 +155,61 @@
 			buildActionMask = 2147483647;
 			files = (
 				12ED5E531D79EC3D00E67B9E /* LaunchScreen.storyboard in Resources */,
+				12ED5E5F1D79F70300E67B9E /* Localizable.strings in Resources */,
 				12ED5E501D79EC3D00E67B9E /* Assets.xcassets in Resources */,
 				12ED5E4E1D79EC3C00E67B9E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C327CFEBA0379551F86064B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TesteOHAutoNIBi18n/Pods-TesteOHAutoNIBi18n-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C75EBD37B9F895F33EA410D8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TesteOHAutoNIBi18n/Pods-TesteOHAutoNIBi18n-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6B1AA732008CB3D2033593F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		12ED5E411D79EC3C00E67B9E /* Sources */ = {
@@ -157,6 +238,15 @@
 				12ED5E521D79EC3D00E67B9E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		12ED5E611D79F70300E67B9E /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12ED5E601D79F70300E67B9E /* en */,
+				12ED5E621D79F71800E67B9E /* pt-BR */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -249,6 +339,7 @@
 		};
 		12ED5E581D79EC3D00E67B9E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAEA1F9B10BA0D7A589B9500 /* Pods-TesteOHAutoNIBi18n.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TesteOHAutoNIBi18n/Info.plist;
@@ -260,6 +351,7 @@
 		};
 		12ED5E591D79EC3D00E67B9E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC6932A3D7D481D06364C70F /* Pods-TesteOHAutoNIBi18n.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TesteOHAutoNIBi18n/Info.plist;
@@ -288,6 +380,7 @@
 				12ED5E591D79EC3D00E67B9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
